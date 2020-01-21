@@ -17,7 +17,7 @@
                 <div class="col-md-12">
                     <div class="form-group">
                         <label for="name">Subscription Key</label>
-                        <input  class="form-control" value="88e4100823d649138e0cd86d9b16ad0f" type="text" id="subkey" placeholder="Subscription Key">
+                        <input  class="form-control" value="3fa4b334fbd64a0bbf064c6092b9641f" type="text" id="subkey" placeholder="Subscription Key">
                     </div>
                 </div>
     
@@ -93,7 +93,7 @@
         //document.getElementById('outputImg').src = apiData.body.url;
 
         var uriBase =
-            "https://"+region+".api.cognitive.microsoft.com/"+apitype+"/"+apiVersion+"/detect?"+reqParam;
+            "https://faceapish.cognitiveservices.azure.com/"+apitype+"/"+apiVersion+"/detect?"+reqParam;
 
         $.ajax({
             url: uriBase,
